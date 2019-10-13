@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Noto+Serif');
+
+h1 {    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+header {    background: #bbb url(../images/top08.jpg);
+}
+
+body {    font-family: 'Noto Serif', serif;
+    margin:0;
+    background: #bbb url(../images/ice.jpg)
+}
+
+.bubba {
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    padding: 1rem;
+}
+
+intro {
+    background: #ccc;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+weatherchannel {
+    background-color: beige(50, 50, 50, .7);
+    color: hsl(40, 50%, 50%);
+}
+
+.site-nav li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.site-nav {
+    background: rgba(50, 50, 50, .7);
+}
+.site-nav a {
+    color: green;
+}
